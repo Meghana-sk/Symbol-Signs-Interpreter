@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 const emojiDictionary = {
-  "⚠️": "Smiling",
+  "⚠️": "Warning",
   "🚸": "Children Crossing",
   "⛔": "No Entry",
   "🚫": "Prohibited",
