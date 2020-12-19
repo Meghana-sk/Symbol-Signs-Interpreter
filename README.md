@@ -1,2 +1,2 @@
-# Symbol-Signs-Interpreter
+# Emoji-Interpreter
 Created with CodeSandbox
