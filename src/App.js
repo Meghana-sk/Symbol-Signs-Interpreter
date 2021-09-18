@@ -27,9 +27,6 @@ export default function App() {
     var userInput = event.target.value;
     var meaning = emojiDictionary[userInput];
 
-    // if (meaning === undefined) {
-    //   meaning = "We dont have this in our database";
-    // }
     if (userInput in emojiDictionary) {
       setEmojiInput(meaning);
     } else {
@@ -70,7 +67,3 @@ export default function App() {
     </div>
   );
 }
-
-/** View - Interact - state in event handler
- *
- */
